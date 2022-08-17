@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item-button button{
+    margin-top: 20px;
+    width: 200px;
+    background-color: #118041;
+    color: white;
+
+}
+
+/* filter */
+.filter {
+  margin: 20px 0;
+  color: rgb(0, 21, 41);
+  align-items: center;
+  background-color: rgba(0, 21, 41, 0.1);
+  border: 1px solid rgba(0, 21, 41, 0.1);
+  border-radius: 50px;
+  padding: 5px 10px;
+  width: auto;
+}
+
+.filter h5 {
+  margin-left: 10px;
+  margin-right: 20px;
+  text-decoration: underline;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.categoryFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.category-active {
+  box-shadow: 0 0 5px #afafaf;
+  border-radius: 5px;
+  box-sizing: initial;
+}
+
+.categoryName {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.pricebold{
+  font-weight:bolder;
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.register input{
+  width: 400px !important;
+}
+
+.register-form{
+  background-color: rgb(219, 224, 246);
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.register-form h1{
+  text-align: center;
+  background-color: #d8803c;
+  color: white;
+  padding: 10px;
+}
+.register-form h3{
+  text-align: center;
+  color:#d8803c;
+}
+
+.ant-btn ant-btn-primary{
+  color:#d8803c;
+}
+
+
+
+.ant-btn ant-btn-primary buttoncolor{
+  color:#d8803c;
+}
+.d-flex button{
+  background-color:#d8803c;
+}
